@@ -3,7 +3,7 @@ This library provides a modular and flexible approach for dynamically registerin
 
 ## Features
 - **Modular Service Registration**: Register services, repositories, identity, and database contexts in separate classes for better maintainability.
-- **Flexible Database Configuration**: Supports database context registration with DbContext and DbContextFactory patterns.
+- **Flexible Database Configuration**: Supports database context registration with DbContext.
 - **Identity and Authentication**: Easily set up Identity Core and JWT authentication.
 - **Scoped and Transient Services**: Supports registration of scoped and transient services.
 
