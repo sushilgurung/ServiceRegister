@@ -12,7 +12,6 @@ This library provides a modular and flexible approach for dynamically registerin
 Install the package via NuGet:
 ```bash
  NuGet\Install-Package Gurung.ServicesRegister
-  cd my-project
 ```
 
 ## Usage
@@ -20,7 +19,7 @@ Install the package via NuGet:
 #### Program.cs
 Here is an example of how to use the library in your `Program.cs`:
 ```csharp
- var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 // Register services using the dynamic service registration library
